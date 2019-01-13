@@ -1,0 +1,141 @@
+*{margin: 0;
+padding: 0;
+ font-family: "Oswald", sans-serif;
+}
+
+/*image*
+********/
+header{
+    background-image:url(IMGP3230.JPG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   }    
+/**contenu page d'accueil*
+*************************/
+.title1 h1{
+  color: #fff;
+  text-shadow: 0px 0px 300px #000;
+ font-size: 50px;
+ font-family: 'Raleway', sans-serif;
+}
+
+.global{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+/*ligne de navigation*/
+
+ul {
+    list-style-type: none;
+    float: left;
+        }
+
+ul li{
+    display: inline-block;
+        }
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    }
+    
+ul li a:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+/***************************/
+#section-a{
+ padding: 20px;
+ background: #373330;
+ color:#fff;
+ text-align: center;
+
+}
+
+.p1, p{
+  font-size: 100%;
+  line-height: 210%;
+  margin: 3%;
+}
+
+
+/*GAllery*/
+
+#section-b{
+ background-color: #f3f3f2;
+  padding: 20px;
+
+}
+
+#section-b h3{
+ color:  #373330;
+ text-align: center;
+ font-size: 30px;
+ font-family: 'Raleway', sans-serif;
+
+}
+
+
+.gallery{
+    margin: 0px 40px;
+   
+}
+
+.gallery img{
+   
+    transition: 1s;
+    padding: 30px;
+    width: 300px;
+   }
+  
+
+
+.gallery img:hover{
+    filter:grayscale(100%);
+    transform: scale(1.1);
+}
+/******************************/
+#section-c{
+
+ background: #FFF;
+color:#373330;
+text-align: center;
+font-size: 10px;
+}
+
+
+
+/*autre support*/
+
+@media screen and(max-width:active 780px){
+.title h1{
+  font-size: 250%;
+}
+.main{
+  font-size: 110%;
+  padding: 7px 15px;
+}
+p{
+  font-size: 100%;
+  line-height: 160%;
+}
+}
